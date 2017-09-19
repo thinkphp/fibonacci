@@ -57,7 +57,20 @@ def fibonacci2(count)
     b
 end
 
+def fibonacci_loop( count )
+
+    a, b = 0, 1
+    p a
+    p b
+    (count-1).times do |i|        
+          a, b = b, a + b
+          p b
+    end     
+    p a
+end
+
 #p fibonacci_iterative(10)
 #p fibonacci_tail(5)
 #p fibonacci_rec(5)
-p fibonacci2(10)
+#p fibonacci2(10)
+fibonacci_loop(4)

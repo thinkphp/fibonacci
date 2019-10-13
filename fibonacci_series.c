@@ -1,3 +1,4 @@
+/*Write a program to print fionacci series in c programming. */
 #include <stdio.h>
 
 void fibo(int count) {
@@ -53,7 +54,7 @@ int fibo_iter2(int count) {
      return b;
 };
 
-
+//Start the program to execute 
 int main(int argc, int **argv) {
     
     fibo(argv[1] ? atoi(argv[1]) : 7);
